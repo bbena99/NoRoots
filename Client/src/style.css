@@ -1,14 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-base{
-  :root {
-    --color-bg1: #f9fafb;
-    --color-bg2: #9ca3af;
-    --color-header: #010513;
-    --color-text: #374151;
-    --color-hover: #0e7490;
-    --color-btn: #6b7280;
-  }
+html{
+  width: 100vw;
+  height: 100vh;
+  background-color: #e7e5e4;
+}
+#app, body{
+  width: 100%;
+  height: 100%;
 }

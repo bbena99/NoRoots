@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <div class="w-screen h-20 bg-blue-400">
+  <div class="w-full h-20 bg-bg2">
+    working
   </div>
 </template>
 

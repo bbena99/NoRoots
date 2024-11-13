@@ -1,18 +1,17 @@
 <script setup lang="ts">
+import { RouterView } from "vue-router";
 import  NavBar from "./components/NavBar.vue"
 </script>
 
 <template>
-  <div class="w-screen h-screen bg-red-500">
-    <NavBar />
-    <div id="page" class="w-screen bg-purple-500">
-
-    </div>
+  <NavBar />
+  <div id="router_output" class="w-full">
+    <RouterView/>
   </div>
 </template>
 
 <style scoped>
-#page{
-  height: calc(100vh - 5rem);
+#router_output{
+  height: calc(100% - 5rem);
 }
 </style>
