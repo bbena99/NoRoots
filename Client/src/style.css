@@ -1,7 +1,7 @@
 html{
   width: 100vw;
   height: 100vh;
-  background-color: #e7e5e4;
+  background-color: --var(--color-bg1);
 }
 #app, body{
   width: 100%;
