@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  Home page works
 </template>
 
 <style scoped>
